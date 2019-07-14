@@ -1,0 +1,9 @@
+# Fork from https://github.com/cocos2d/cocos2d-x , 
+# I think this structure is much more simple for VS developer; and also a backup.
+# 可以把就把目前的最新版v3.17的cocos2d开发包拷过来就可以了，
+# 如果没有的话再看下面的操作：
+$ git clone https://github.com/cocos2d/cocos2d-x.git cocos2d
+$ cd cocos2d
+$ git checkout v3.10 
+$ git submodule update --init
+$ python download-deps.py （注意是2.7版本）
